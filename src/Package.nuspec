@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>devtools.aspnet</id>
+    <version>1.0.0</version>
+    <authors>wtl</authors>
+    <owners>wtl</owners>
+    <projectUrl>https://github.com/braydenwt/devtools.aspnet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>dev tools built for asp.net apps</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>embedded resource, asp.net</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="DevTools.AspNet\bin\Release\*.dll" target="lib\net35" />
+    <file src="DevTools.AspNet\bin\Release\*.dll" target="lib\net40" />
+  </files>
+</package>
